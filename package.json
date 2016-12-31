@@ -1,0 +1,17 @@
+{
+  "name": "nodular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo src/main.ts:bundle.js --open --live --dir dist -- -p tsify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.3.1",
+    "pixi.js": "^4.3.0",
+    "tsify": "^3.0.0"
+  }
+}
